@@ -1,0 +1,36 @@
+@media screen and (min-width: 800px) {
+  .footer__ul {
+    width: 456px;
+    margin: auto;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__left {
+    width: 50%;
+  }
+  
+  .footer__p {
+    width: 90%;
+  }
+
+  .footer__right {
+    width: 50%;
+    margin-top: 25px;
+    min-height: 300px;
+  }
+
+  .footer__social {
+    margin-top: 40px;
+  }
+
+  .footer__ul {
+    margin-top: 100px;
+  }
+}

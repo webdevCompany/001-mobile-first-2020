@@ -1,0 +1,22 @@
+
+.servicesImgIntro {
+  transition: all .5s;
+  transition-timing-function: cubic-bezier(.49,1.09,.99,1.02);
+  opacity: .6;
+  width: 100%;
+  height: 100%;
+  transform: translateX(0px) scale(1, 1);
+}
+
+.servicesH3Intro {
+  margin-top: 10px;
+  transition: all 1s;
+  transition-delay: .5s;
+  opacity: 1;
+}
+
+.servicesButtonIntro {
+  transition: all 1s;
+  transition-delay: .8s;
+  opacity: 1;
+}

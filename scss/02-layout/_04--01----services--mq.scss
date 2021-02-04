@@ -1,0 +1,13 @@
+@media screen and (min-width: 465px) {
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .services__component {
+    width: 48%;
+    height: auto;
+  }
+
+}
+

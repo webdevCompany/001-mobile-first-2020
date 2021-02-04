@@ -1,0 +1,19 @@
+
+
+.footer__logo,
+.footer__p,
+.footer__p--span,
+.footer__address,
+.footer__social__li {
+    transition: all 1s;
+    opacity: 0;
+    transform-origin: left;
+    transform: translateY(-40px);
+}
+
+.footerIntro {
+    opacity: 1;
+    transform-origin: left;
+    transform: translateY(0px);
+}
+

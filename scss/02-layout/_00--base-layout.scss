@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: $black;
+  color: $grey-2;
+}
+
+// body changes style when the hamburger icon shows navigation bar on click
+.navBarFullScreen {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}

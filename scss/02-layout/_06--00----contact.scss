@@ -1,0 +1,106 @@
+.contact {
+  width: auto;
+  max-width: 1140px;
+  height: auto;
+  margin: auto;
+  padding: 7.32vw 5% 10.32vw 5%;
+}
+
+.contact__content {
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+}
+
+.contact__form {
+  order: 2;
+  margin-top: 40px;
+  width: 100%;
+  margin: auto;
+}
+
+.contact__form * {
+  opacity: 0;
+  transition: all .8s;
+}
+
+.contact__form--inputs-group-bg {
+  background-color: $black-2;
+  border: 2px solid $red;
+  padding: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact__label {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.label__span {
+  display: block;
+  width: 60px;
+  height: auto;
+}
+
+.label__span--textarea {
+  display: inline-block;
+  width: 120px;
+}
+
+.contact__label-textarea {
+  display: block;
+  width: 100%;
+  margin-top: 28px;
+  height: auto;
+}
+
+.contact__label input {
+  background-color: $black;
+  margin-top: 10px;
+  color: $white;
+  line-height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+label[for='email'] {
+  width: 100%;
+}
+
+textarea {
+  display: block;
+  background-color: $black;
+  width: 100%;
+  height: 120px;
+  padding: 5px;
+  margin-top: 10px;
+  color: $white;
+}
+
+input[type='submit'],
+input[type='reset'] {
+  display: inline-block;
+  width: 35%;
+  height: 34px;
+  line-height: 40px;
+  background-color: $medium-red;
+  color: $off-white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 33px;
+}
+
+input[type='reset'] {
+  background-color: $dark-red;
+  color: $off-white;
+}

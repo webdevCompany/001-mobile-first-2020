@@ -1,0 +1,74 @@
+@media screen and (min-width: 700px) {
+  .clients__carousel {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+
+  #clients__carousel__3images-group {
+    display: flex;
+    flex-direction: row;
+    width: 300%;
+    position: relative;
+    left: 0;
+  }
+
+  .clients__component {
+    background: $black;
+    border-radius: 10px;
+    padding: 52px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+  }
+
+  .clients__component__profile-pic {
+    margin-top: 0px;
+  }
+
+  .clients__carousel__dots {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin: 0px auto;
+  }
+
+  input[type='radio'] {
+    -webkit-appearance: none;
+  }
+
+  .span-radio-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 3px solid $red;
+    opacity: 0.5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .span-radio-button::after {
+    content: '';
+    position: absolute;
+    background: $red;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+
+  input[type='radio']:checked + .span-radio-button {
+    opacity: 1;
+  }
+
+  input[type='radio']:checked + .span-radio-button::after {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+  }
+}

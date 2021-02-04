@@ -1,0 +1,74 @@
+.clients {
+  width: auto;
+  max-width: 1140px;
+  height: auto;
+  padding: 7.32vw 5% 7.32vw 5%;
+  margin: 0px auto 30px auto;
+  background-color: $black-2;
+  background-image: url('../images/clients/clients-bg.jpg');
+  background-size: 1200px 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#clients__carousel__3images-group {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+// =============================================
+
+.clients__component {
+  width: 94%;
+  margin: auto;
+  margin-top: 20px;
+  background: $black;
+  border: 2px solid $grey-1;
+  border-radius: 4px;
+  padding: 20px 5%;
+  margin-bottom: 40px;
+
+  // ----intro animation ----- 
+  // margin-top: 60px;
+
+  opacity: 0;
+  // transform: scale(.8, .7) translateY(60px);
+  transform: scale(.8, .7);
+  // ----intro animation ----- 
+}
+
+// =============================================
+
+.clients__component__profile-pic {
+  display: inline-block;
+  width: 61px;
+  height: 70px;
+}
+
+
+.clients__component__ratings {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rating-stars-group {
+  width: 120px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__component__ratings img {
+ width: 20px;
+ height: 20px;
+ opacity: .8;
+}
+
+
+.clients__carousel__dots {
+  display: none;
+}

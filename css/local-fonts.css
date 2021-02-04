@@ -1,0 +1,11 @@
+/* font converted using font-converter.net. thank you! */
+
+@font-face {
+  font-family: "Aldrich-Regular";
+  src: url("../fonts/Aldrich-Regular.woff") format("woff"),       
+       url("../fonts/Aldrich-Regular.woff2") format("woff2");     
+  font-weight: normal;
+  font-style: normal;
+ }
+
+ 

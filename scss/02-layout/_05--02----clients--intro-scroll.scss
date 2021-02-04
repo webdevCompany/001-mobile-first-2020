@@ -1,0 +1,15 @@
+
+
+.clientsH2intro {
+  transition-timing-function: cubic-bezier(.25,1.11,.74,1.11);
+  transition: all .5s;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.clientsCommentBox {
+  transition: all .5s;
+  transition-timing-function: cubic-bezier(.25,1.11,.74,1.11);
+  opacity: 1; 
+  transform: scale(1, 1);
+}

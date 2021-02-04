@@ -1,0 +1,277 @@
+body * {
+  font-family: 'Aldrich-Regular', Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.333;
+}
+
+
+h1 {
+  font-size: calc(45px + (61 - 45) * (100vw - 320px) / (1200 - 320));
+  margin-top: calc(50px + (100 - 50) * (100vw - 320px) / (1200 - 320));
+  text-align: center;
+  color: $grey-2;
+}
+
+h2 {
+  font-size: calc(25px + (48 - 25) * (100vw - 400px) / (1140 - 400));
+  color: $white;
+}
+
+h3 {
+  font-size: calc(20px + (30 - 20) * (100vw - 400px) / (1140 - 400));
+  color: $white;
+}
+// ==========================================================
+// ==========================================================
+
+p {
+  color: $grey-1;
+}
+
+a {
+  color: $red;
+}
+
+// HEADER //////////////////////////////
+.header__logo {
+  font-size: 25px;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  left: 5%;
+  opacity: 0;
+}
+
+.nav__ul__li__a {
+  font-size: 24px;
+  transition: all 0.5s;
+}
+
+.nav__ul__li__a:hover {
+  box-shadow: 0 0px 10px 2px $red;
+  background: $red;
+  color: $white;
+}
+
+//end HEADER ///////////////////////////
+
+// HERO ////////////////////////////////
+
+/* create span elements to manipulate each character */
+.h1Future {
+  color: $grey;
+  opacity: 0;
+}
+
+/* create span elements to manipulate each character */
+.h1Design {
+  color: $red;
+  opacity: 0;
+}
+
+/* create span elements to manipulate each character */
+.hero__p {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2px;
+}
+
+.heroP {
+  color: $medium-red;
+  opacity: 0;
+}
+
+.hero__pAddTextIntro {
+  opacity: 1;
+  color: #797878;
+  background-color: #161616;
+}
+// end HERO ///////////////////////////
+
+// WORK ////////////////////////////
+.work__header__h2 {
+  margin-top: 32px;
+}
+
+.work__article__header__h3 {
+  position: relative;
+  top: 59px;
+  opacity: 0;
+}
+
+.work__article__p {
+  font-size: 14px;
+  line-height: 2;
+  color: $grey-1;
+  margin-top: 18px;
+  transform: scale(0.4, 0.8);
+  opacity: 0;
+}
+
+.work__article__a {
+  display: inline-block;
+  width: 120px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: $red;
+  transition: all 0.5s;
+  padding: 10px 20px;
+  border: 1px dotted $red;
+  transform: scale(0.2, 0.8);
+  opacity: 0;
+}
+
+.work__article__a:hover {
+  box-shadow: 0 0px 10px 2px $red;
+  background: $red;
+  color: $white;
+  transition-delay: 0s;
+}
+
+// end WORK ////////////////////////////
+
+// SERVICES /////////////////////////
+.services__component__header__h3 {
+  margin-top: 0px;
+  opacity: 0;
+}
+
+.services__component__a {
+  display: block;
+  margin-top: 10px;
+  transition: all 0.5s;
+  width: 145px;
+  padding: 5px 10px;
+  opacity: 0;
+}
+
+.services__component__a:hover {
+  box-shadow: 0 0px 10px 2px $red;
+  background: $red;
+  color: $white;
+  width: 200px;
+}
+
+// end SERVICES /////////////////////////
+
+// CLIENTS  //////////////////////////////
+
+.clients__header__h2 {
+  opacity: 1;
+}
+
+.clientsH2span {
+  opacity: 0;
+}
+
+.clients__component_blockquote {
+  font-size: 14px;
+  margin-top: 20px;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.clients__component__blockquote__cite {
+  font-size: 16px;
+  color: $white;
+  display: block;
+  margin-top: 10px;
+}
+
+// hero, work, services button
+button {
+  font-size: 18px;
+  color: $red;
+}
+
+// CLIENTS  //////////////////////////////
+
+// CONTACT  ////////////////////////////
+
+.contact__header__h2  {
+  opacity: 0;
+}
+
+.contact__header__h2--german {
+  transition: all 1s;
+  opacity: 0;
+  margin-left: 50px;
+}
+
+.contact__header__p {
+  font-size: 14px;
+  color: $grey-1;
+  margin-top: 26px;
+  line-height: 1.8;
+  transition: all 1s;
+  margin-top: 50px;
+  opacity: 0;
+}
+
+form label {
+  font-size: 14px;
+  color: $red;
+}
+
+form input {
+  font-size: 14px;
+  background-color: $black-2;
+  color: $white;
+}
+
+.contact svg {
+  fill: $grey-1;
+}
+// CONTACT  ////////////////////////////
+
+// FOOTER ///////////////////////////
+
+.footer__logo {
+  font-size: 25px;
+}
+
+.logo-Red {
+  color: $red;
+}
+
+.footer__p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: $grey-2;
+  margin-top: 40px;
+}
+
+.footer__p--span {
+  font-size: 14px;
+  line-height: 1.4;
+  display: block;
+  margin-top: 27px;
+}
+
+.footer__address {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 42px;
+}
+
+.footer__ul__li__a {
+  font-size: 14px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  width: 100%;
+  margin: 20px auto 14px auto;
+  text-align: center;
+}
